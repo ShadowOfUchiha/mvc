@@ -19,7 +19,7 @@ class OutputData {
             $html .= "<td class='p-2 border-r border-l border-collapse'>" . $row['product_type_code'] . "</td>";
             $html .= "<td class='p-2 border-r border-l border-collapse'>" . $row['supplier_id'] . "</td>";
             $html .= "<td class='p-2 border-r border-l border-collapse'>" . $row['product_name'] . "</td>";
-            $html .= "<td class='p-2 border-r border-l border-collapse'>€ " . str_replace('.', ',', $row['product_price']) . "</td>";
+            $html .= "<td class='p-2 border-r border-l border-collapse'>" . $row['product_price'] . "</td>";
             $html .= "<td class='p-2 border-r border-l border-collapse'>" . $row['other_product_details'] . "</td>";
 
             $html .= "<td class='p-2 flex justify-between'>";

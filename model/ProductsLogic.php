@@ -23,7 +23,7 @@ class ProductsLogic {
     }
 
     public function ReadProducts() {
-        $sql = "SELECT * FROM products";
+        $sql = "SELECT product_id, product_type_code, supplier_id, product_name, CONCAT('€ ', REPLACE(product_price, '.', ',')) AS product_price, other_product_details FROM products";
         $result = $this->DataHandler->ReadData($sql, []);
         return $result;
     }

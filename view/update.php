@@ -1,6 +1,3 @@
-<?php
-// if(!isset($product)) throw new Exception("Cannot edit a non-existing product.");
-?>
 
 <div class="flex flex-col w-8/12 m-auto">
     <span class="my-16">

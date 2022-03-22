@@ -33,3 +33,14 @@ function sendToContent(result){
 	// 'This is the returned text.'
 	return document.getElementById("content").innerHTML = result.response;
 }
+
+// // function that replaces the content in class content from the reads.php
+// function loadDoc() {
+// 	const xhttp = new XMLHttpRequest();
+// 	xhttp.onload = function() {
+// 	  document.querySelector(".content").innerHTML =
+// 	  this.responseText;
+// 	}
+// 	xhttp.open("GET", "./index.php?action=createform");
+// 	xhttp.send();
+//   }
